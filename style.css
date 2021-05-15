@@ -1,0 +1,40 @@
+#box {
+  width: 18vw;
+  height: 18vw;
+  border: 1rem solid black;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  background-color: #f7a440;
+  z-index: 1;
+}
+#box2 {
+  width: 18vw;
+  height: 18vw;
+  border: 1rem solid black;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-40%, -40%);
+  background-color: #aaaaaa;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+}
+#hexInfo {
+  font-size: 1.5rem;
+  font-family: "Lemon/Milk";
+  position: absolute;
+  top: 80vh;
+  left: 50vw;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+@font-face {
+  font-family: "Lemon/Milk";
+  src: url("./LemonMilk.otf");
+}
