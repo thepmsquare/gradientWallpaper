@@ -26,7 +26,7 @@ body {
 }
 #hexInfo {
   font-size: 1.5rem;
-  font-family: "Lemon/Milk";
+  font-family: "Space Mono";
   position: absolute;
   top: 80vh;
   left: 50vw;
@@ -35,6 +35,6 @@ body {
   color: black;
 }
 @font-face {
-  font-family: "Lemon/Milk";
-  src: url("./LemonMilk.otf");
+  font-family: "Space Mono";
+  src: url("./SpaceMono-Regular.otf");
 }
